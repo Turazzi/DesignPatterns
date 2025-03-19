@@ -34,7 +34,3 @@ public class FireMario implements State{
         mario.setCurrentState(new BigMario(mario));
     }
 }
-
-
-
-

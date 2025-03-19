@@ -6,5 +6,3 @@ public interface State {
     void pickUpFeather();
     void takeDamage();
 }
-
-

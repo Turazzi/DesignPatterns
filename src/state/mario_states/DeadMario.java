@@ -30,6 +30,3 @@ public class DeadMario implements State {
         System.out.println("Mario is DEAD");
     }
 }
-
-
-

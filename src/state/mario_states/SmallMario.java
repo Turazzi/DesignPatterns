@@ -2,7 +2,7 @@ package state.mario_states;
 
 import state.mario.MarioContext;
 
-public class SmallMario implements State{
+public class SmallMario implements State {
 
     private final MarioContext mario;
 
@@ -34,5 +34,3 @@ public class SmallMario implements State{
         mario.setCurrentState(new DeadMario(mario));
     }
 }
-
-
