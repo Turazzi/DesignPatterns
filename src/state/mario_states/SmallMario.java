@@ -34,3 +34,4 @@ public class SmallMario implements State {
         mario.setCurrentState(new DeadMario(mario));
     }
 }
+
