@@ -34,3 +34,4 @@ public class CapeMario implements State{
         mario.setCurrentState(new BigMario(mario));
     }
 }
+

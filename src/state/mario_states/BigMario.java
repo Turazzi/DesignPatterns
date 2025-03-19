@@ -34,3 +34,5 @@ public class BigMario implements State {
         mario.setCurrentState(new SmallMario(mario));
     }
 }
+
+
