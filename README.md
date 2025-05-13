@@ -14,3 +14,11 @@ As próximas implementações serão:
 2. **Observer**: Define uma dependência um-para-muitos entre objetos, de forma que quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente.
 3. **Iterator**: Fornece um meio de acessar sequencialmente os elementos de um objeto agregado sem expor sua representação subjacente.
 4. **Chain of Responsibility**: Permite que um pedido seja enviado por uma cadeia de manipuladores, onde cada manipulador pode processar o pedido ou passar adiante.
+
+ ## 🐳 Rodando com Docker
+
+1. **Build da imagem**:
+
+```bash
+docker build -t designpatterns-app .
+
